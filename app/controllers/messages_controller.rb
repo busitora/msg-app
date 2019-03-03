@@ -4,4 +4,9 @@ class MessagesController < ApplicationController
     @msg = params[:msg]
   end
 
+  def vertexg
+
+    @test = 'Vertex-gへようこそ'
+  end
+
 end
